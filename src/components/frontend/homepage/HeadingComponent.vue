@@ -143,7 +143,7 @@
         >
           {{ step.number }}
         </div>
-        <div class="pr-4 pl-4 text-right flex-1">
+        <div class="pr-4 pl-4 text-start flex-1">
           <h3 
             class="text-lg font-bold mb-2"
             :class="index % 2 === 0 ? 'text-primary-green' : 'text-primary-pink'"

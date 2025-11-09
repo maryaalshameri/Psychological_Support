@@ -5,8 +5,8 @@
 
     <!-- Hero -->
     <Hero
-      title="تواصــل معنا"
-      highlight="وسنسعد بخدمتك"
+      title="تواصــل "
+      highlight=" معنا"
       subtitle="نحن هنا للإجابة عن استفساراتك ومساعدتك في أي وقت"
 
            :buttons="[

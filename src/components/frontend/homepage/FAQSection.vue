@@ -58,7 +58,7 @@
               class="w-full px-6 py-5 text-right flex items-center justify-between text-gray-800 font-semibold hover:text-primary-pink transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-pink focus:ring-opacity-50"
               :class="{ 'text-primary-pink': openQuestionId === faq.id }"
             >
-              <span class="flex items-center gap-3 text-right">
+              <span class="flex items-center gap-3 text-start">
                 <!-- رقم السؤال -->
                 <span 
                   class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-pink text-white text-sm flex items-center justify-center font-bold transition-all duration-300 transform hover:scale-110"
@@ -114,10 +114,10 @@
             <!-- زر السؤال -->
             <button 
               @click="toggleQuestion(faq.id)"
-              class="w-full px-6 py-5 text-right flex items-center justify-between text-gray-800 font-semibold hover:text-primary-pink transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-pink focus:ring-opacity-50"
+              class="w-full px-6 py-5 text-start flex items-center justify-between text-gray-800 font-semibold hover:text-primary-pink transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-pink focus:ring-opacity-50"
               :class="{ 'text-primary-pink': openQuestionId === faq.id }"
             >
-              <span class="flex items-center gap-3 text-right">
+              <span class="flex items-center gap-3 text-start">
                 <!-- رقم السؤال -->
                 <span 
                   class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-pink text-white text-sm flex items-center justify-center font-bold transition-all duration-300 transform hover:scale-110"
