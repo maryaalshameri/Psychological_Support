@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://maryaalshameri.github.io/Psychological_Support",
   "name": "psychological_support",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
